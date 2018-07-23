@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9B19D021057D5F00257D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9B19CF21057D5F00257D82 /* AppDelegate.swift */; };
+		EB9B19D221057D5F00257D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9B19D121057D5F00257D82 /* ViewController.swift */; };
+		EB9B19D521057D5F00257D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9B19D321057D5F00257D82 /* Main.storyboard */; };
+		EB9B19D721057D6100257D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9B19D621057D6100257D82 /* Assets.xcassets */; };
+		EB9B19DA21057D6100257D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9B19D821057D6100257D82 /* LaunchScreen.storyboard */; };
+		EB9B19E521057D6100257D82 /* ZYAlertPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9B19E421057D6100257D82 /* ZYAlertPickerTests.swift */; };
+		EB9B19F021057D6100257D82 /* ZYAlertPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9B19EF21057D6100257D82 /* ZYAlertPickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9B19E121057D6100257D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9B19C421057D5F00257D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9B19CB21057D5F00257D82;
+			remoteInfo = ZYAlertPicker;
+		};
+		EB9B19EC21057D6100257D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9B19C421057D5F00257D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9B19CB21057D5F00257D82;
+			remoteInfo = ZYAlertPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9B19CC21057D5F00257D82 /* ZYAlertPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAlertPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9B19CF21057D5F00257D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB9B19D121057D5F00257D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB9B19D421057D5F00257D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB9B19D621057D6100257D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB9B19D921057D6100257D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB9B19DB21057D6100257D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9B19E021057D6100257D82 /* ZYAlertPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYAlertPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9B19E421057D6100257D82 /* ZYAlertPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAlertPickerTests.swift; sourceTree = "<group>"; };
+		EB9B19E621057D6100257D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9B19EB21057D6100257D82 /* ZYAlertPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYAlertPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9B19EF21057D6100257D82 /* ZYAlertPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAlertPickerUITests.swift; sourceTree = "<group>"; };
+		EB9B19F121057D6100257D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9B19C921057D5F00257D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19DD21057D6100257D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19E821057D6100257D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9B19C321057D5F00257D82 = {
+			isa = PBXGroup;
+			children = (
+				EB9B19CE21057D5F00257D82 /* ZYAlertPicker */,
+				EB9B19E321057D6100257D82 /* ZYAlertPickerTests */,
+				EB9B19EE21057D6100257D82 /* ZYAlertPickerUITests */,
+				EB9B19CD21057D5F00257D82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9B19CD21057D5F00257D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B19CC21057D5F00257D82 /* ZYAlertPicker.app */,
+				EB9B19E021057D6100257D82 /* ZYAlertPickerTests.xctest */,
+				EB9B19EB21057D6100257D82 /* ZYAlertPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9B19CE21057D5F00257D82 /* ZYAlertPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B19CF21057D5F00257D82 /* AppDelegate.swift */,
+				EB9B19D121057D5F00257D82 /* ViewController.swift */,
+				EB9B19D321057D5F00257D82 /* Main.storyboard */,
+				EB9B19D621057D6100257D82 /* Assets.xcassets */,
+				EB9B19D821057D6100257D82 /* LaunchScreen.storyboard */,
+				EB9B19DB21057D6100257D82 /* Info.plist */,
+			);
+			path = ZYAlertPicker;
+			sourceTree = "<group>";
+		};
+		EB9B19E321057D6100257D82 /* ZYAlertPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B19E421057D6100257D82 /* ZYAlertPickerTests.swift */,
+				EB9B19E621057D6100257D82 /* Info.plist */,
+			);
+			path = ZYAlertPickerTests;
+			sourceTree = "<group>";
+		};
+		EB9B19EE21057D6100257D82 /* ZYAlertPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B19EF21057D6100257D82 /* ZYAlertPickerUITests.swift */,
+				EB9B19F121057D6100257D82 /* Info.plist */,
+			);
+			path = ZYAlertPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9B19CB21057D5F00257D82 /* ZYAlertPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9B19F421057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPicker" */;
+			buildPhases = (
+				EB9B19C821057D5F00257D82 /* Sources */,
+				EB9B19C921057D5F00257D82 /* Frameworks */,
+				EB9B19CA21057D5F00257D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAlertPicker;
+			productName = ZYAlertPicker;
+			productReference = EB9B19CC21057D5F00257D82 /* ZYAlertPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9B19DF21057D6100257D82 /* ZYAlertPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9B19F721057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPickerTests" */;
+			buildPhases = (
+				EB9B19DC21057D6100257D82 /* Sources */,
+				EB9B19DD21057D6100257D82 /* Frameworks */,
+				EB9B19DE21057D6100257D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9B19E221057D6100257D82 /* PBXTargetDependency */,
+			);
+			name = ZYAlertPickerTests;
+			productName = ZYAlertPickerTests;
+			productReference = EB9B19E021057D6100257D82 /* ZYAlertPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB9B19EA21057D6100257D82 /* ZYAlertPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9B19FA21057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPickerUITests" */;
+			buildPhases = (
+				EB9B19E721057D6100257D82 /* Sources */,
+				EB9B19E821057D6100257D82 /* Frameworks */,
+				EB9B19E921057D6100257D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9B19ED21057D6100257D82 /* PBXTargetDependency */,
+			);
+			name = ZYAlertPickerUITests;
+			productName = ZYAlertPickerUITests;
+			productReference = EB9B19EB21057D6100257D82 /* ZYAlertPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9B19C421057D5F00257D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZY;
+				TargetAttributes = {
+					EB9B19CB21057D5F00257D82 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EB9B19DF21057D6100257D82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EB9B19CB21057D5F00257D82;
+					};
+					EB9B19EA21057D6100257D82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EB9B19CB21057D5F00257D82;
+					};
+				};
+			};
+			buildConfigurationList = EB9B19C721057D5F00257D82 /* Build configuration list for PBXProject "ZYAlertPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9B19C321057D5F00257D82;
+			productRefGroup = EB9B19CD21057D5F00257D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9B19CB21057D5F00257D82 /* ZYAlertPicker */,
+				EB9B19DF21057D6100257D82 /* ZYAlertPickerTests */,
+				EB9B19EA21057D6100257D82 /* ZYAlertPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9B19CA21057D5F00257D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B19DA21057D6100257D82 /* LaunchScreen.storyboard in Resources */,
+				EB9B19D721057D6100257D82 /* Assets.xcassets in Resources */,
+				EB9B19D521057D5F00257D82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19DE21057D6100257D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19E921057D6100257D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9B19C821057D5F00257D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B19D221057D5F00257D82 /* ViewController.swift in Sources */,
+				EB9B19D021057D5F00257D82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19DC21057D6100257D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B19E521057D6100257D82 /* ZYAlertPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9B19E721057D6100257D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B19F021057D6100257D82 /* ZYAlertPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9B19E221057D6100257D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9B19CB21057D5F00257D82 /* ZYAlertPicker */;
+			targetProxy = EB9B19E121057D6100257D82 /* PBXContainerItemProxy */;
+		};
+		EB9B19ED21057D6100257D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9B19CB21057D5F00257D82 /* ZYAlertPicker */;
+			targetProxy = EB9B19EC21057D6100257D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB9B19D321057D5F00257D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9B19D421057D5F00257D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB9B19D821057D6100257D82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9B19D921057D6100257D82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9B19F221057D6100257D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9B19F321057D6100257D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9B19F521057D6100257D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB9B19F621057D6100257D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB9B19F821057D6100257D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAlertPicker.app/ZYAlertPicker";
+			};
+			name = Debug;
+		};
+		EB9B19F921057D6100257D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAlertPicker.app/ZYAlertPicker";
+			};
+			name = Release;
+		};
+		EB9B19FB21057D6100257D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYAlertPicker;
+			};
+			name = Debug;
+		};
+		EB9B19FC21057D6100257D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYAlertPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYAlertPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYAlertPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9B19C721057D5F00257D82 /* Build configuration list for PBXProject "ZYAlertPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9B19F221057D6100257D82 /* Debug */,
+				EB9B19F321057D6100257D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9B19F421057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9B19F521057D6100257D82 /* Debug */,
+				EB9B19F621057D6100257D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9B19F721057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9B19F821057D6100257D82 /* Debug */,
+				EB9B19F921057D6100257D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9B19FA21057D6100257D82 /* Build configuration list for PBXNativeTarget "ZYAlertPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9B19FB21057D6100257D82 /* Debug */,
+				EB9B19FC21057D6100257D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9B19C421057D5F00257D82 /* Project object */;
+}
